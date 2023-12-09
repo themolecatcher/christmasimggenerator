@@ -1,6 +1,6 @@
 /** uncomment one of these **/
 // import OpenAI from "openai"
-import { HfInference } from '@huggingface/inference'
+import { HfInference } from 'https://cdn.jsdelivr.net/npm/@huggingface/inference@1.4.0/dist/HfInference.js';
 
 const hf = new HfInference(process.env.HUGGINGFACE_TOKEN)
 const dialogModal = document.getElementById('dialog-modal')
